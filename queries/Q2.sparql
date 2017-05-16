@@ -1,0 +1,8 @@
+select  distinct * where {
+?d1 <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Combination_antibiotics>.
+?d2 <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Amphetamine>.
+?d2 <http://purl.org/dc/terms/subject> ?o.
+?d1 <http://purl.org/dc/terms/subject> ?o.
+?d1 <http://dbpedia.org/ontology/chEBI> ?o1.
+?d2 <http://xmlns.com/foaf/0.1/depiction> ?o2.
+}
