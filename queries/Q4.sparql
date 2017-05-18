@@ -1,9 +1,5 @@
 select * where {
-?d1 <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Steroids>.
-?d2 <http://purl.org/dc/terms/subject> ?s.
-?d1 <http://dbpedia.org/ontology/chEBI> ?o1.
-?d2 <http://xmlns.com/foaf/0.1/depiction> ?o.
-?d2 <http://xmlns.com/foaf/0.1/depiction> ?o.
-?d2 <http://dbpedia.org/ontology/iupacName> ?in.
-?d1 <http://dbpedia.org/ontology/casNumber> ?cn.
-}
+?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MilitaryConflict>.
+?s <http://dbpedia.org/property/combatant> ?p.
+?p <http://dbpedia.org/property/largestCity> ?o.
+?p <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Country>}

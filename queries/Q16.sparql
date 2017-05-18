@@ -1,8 +1,6 @@
 select * where {
-?d1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/City>.
-?d2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>.
-?d1 <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?o.
-?d2 <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?o.
-?d1 <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> ?o3.
-?d2 <http://dbpedia.org/ontology/areaWater> ?o4.
+?s1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?t1.
+?s1 <http://purl.org/dc/terms/subject> ?t2.
+?s1 <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Films_shot_in_New_York_City>.
+?s1 <http://dbpedia.org/property/language> ?l.
 }
